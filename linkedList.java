@@ -8,6 +8,7 @@ public class linkedList
   public linkedList(int data)
   {
     this.data = data;
+    this.next = null;
   }
 
   public linkedList(int data, linkedList next)
